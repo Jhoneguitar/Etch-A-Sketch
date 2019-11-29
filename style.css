@@ -1,0 +1,33 @@
+body{
+	background-image: url("images/madera.jpg");
+}
+
+h1{
+	text-align: center;
+	color: #ececec;
+}
+
+#btns{
+	text-align: center;
+	margin: 40px;
+}
+
+#btns>button{
+	padding: 15px;
+	font-size: 25px;
+}
+
+#grid-container{
+	display: grid;
+	grid-template-columns: repeat(16, 1fr);
+	grid-template-rows: repeat(16, 1fr);
+	width: 960px;
+	height: 600px;
+	margin: auto;
+	border: 3px solid gray;
+}
+
+.grid-item{
+	background-color: #eff2ef;
+}
+
